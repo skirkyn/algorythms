@@ -4,7 +4,7 @@ type SubrectangleQueries struct {
 	rectangle [][]int
 }
 
-func Constructor(rectangle [][]int) SubrectangleQueries {
+func _Constructor(rectangle [][]int) SubrectangleQueries {
 	return SubrectangleQueries{rectangle: rectangle}
 }
 
